@@ -1,3 +1,10 @@
+node_modules/
+dist/
+scripts/*.mjs
+scripts/shots/
+*.log
+.DS_Store
+
 .env
 .env.*
 !.env.example
@@ -12,7 +19,6 @@ secrets.*
 credentials*.json
 .npmrc
 .pypirc
-node_modules/
 __pycache__/
 .venv/
 venv/
